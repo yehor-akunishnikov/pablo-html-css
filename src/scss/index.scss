@@ -1,0 +1,219 @@
+@import "../null-style";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+//Global primary elements
+.title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  display: block;
+  color: #2E363E;
+  font-size: 11px;
+  line-height: 16.5px;
+  padding: 10px 18px;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2E363E;
+  background-color: #FED84C;
+  border-radius: 8px;
+}
+
+//---------------------------------------------------------------------
+
+.wrapper {
+
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+}
+
+.info__section {
+  background: url('/src/img/background/bg-info.png') no-repeat;
+  background-size: cover;
+  min-height: 1234px;
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header__title {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 500;
+  margin: 40px 0;
+}
+
+.address__row {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.header__address {
+  color: #ffffff;
+  font-size: 12px;
+  margin: 40px 70px 40px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: url("/src/img/icons/location.png") 0-0 no-repeat;
+  li {
+    margin: 0 0 0 25px;
+  }
+}
+
+.header__contact {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  font-size: 13px;
+  text-align: center;
+  background: url("/src/img/icons/phone.png") 0-0 no-repeat;
+  li {
+    margin: 0 0 0 25px;
+    &:first-child {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 152%;
+    }
+  }
+}
+
+.main__row {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+}
+
+.main__subtitle {
+  max-width: 135px;
+}
+
+.main__title {
+  margin: 0 0 24px 0;
+}
+
+.main__text {
+  font-size: 24px;
+  line-height: 143%;
+  color: #ffffff;
+  margin: 0 0 40px 0;
+}
+
+.button__row {
+  display: flex;
+  max-width: 510px;
+  flex-wrap: wrap;
+}
+
+.main__btn {
+  line-height: 152%;
+  padding: 30px 50px;
+}
+
+.btn__text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 20px 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+.price__title {
+  color: #2E363E;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 0 80px 0;
+}
+
+.columns__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  justify-content: space-between;
+}
+
+.columns__column {
+  max-width: 30%;
+  padding: 0 10px;
+  margin: 70px 0 0 0;
+}
+
+
+
+.column__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 143%;
+  text-align: center;
+  margin: 50px 0 12px 45px;
+}
+
+.column__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2E363E;
+
+  margin: 0 0 0 45px;
+}
+
+.column__price {
+  margin: 24px 0 14px 45px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #434B53;
+}
+
+.column__btn {
+  margin: 0 0 35px 45px;
+  padding: 20px 40px;
+  max-width: 175px;
+}
+
+
+//PHone section
+
+.phone__section {
+  background-color: #081130;
+}
+
+.phone__upsmoke {
+  width: 100%;
+}
