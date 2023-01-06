@@ -16,7 +16,6 @@ body {
 }
 
 .subtitle {
-  display: block;
   color: #2E363E;
   font-size: 11px;
   line-height: 16.5px;
@@ -70,7 +69,6 @@ body {
 .address__row {
   display: flex;
   align-items: center;
-  margin: 40px 0;
 }
 
 .header__address {
@@ -108,10 +106,11 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 650px;
+  margin: 220px 0 0 0;
 }
 
 .main__subtitle {
-  max-width: 135px;
+  margin: 0 0 24px 0;
 }
 
 .main__title {
@@ -208,12 +207,10 @@ body {
 }
 
 
-//PHone section
+//Content section
 
-.phone__section {
-  background-color: #081130;
-}
-
-.phone__upsmoke {
-  width: 100%;
+.content__section {
+  background: url("/src/img/background/content-bg.png") 0-0 no-repeat;
+  min-height: 1352px;
+  background-size: cover;
 }
