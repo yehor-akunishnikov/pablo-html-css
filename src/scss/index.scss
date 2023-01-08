@@ -16,6 +16,7 @@ body {
 }
 
 .subtitle {
+  display: inline-block;
   color: #2E363E;
   font-size: 11px;
   line-height: 16.5px;
@@ -282,6 +283,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 
 .woman__content {
@@ -292,7 +294,8 @@ body {
   width: 50%;
 }
 
-.woman__subtitle {
+.woman__subtitle .subtitle {
+
   letter-spacing: 0.1em;
   border-radius: unset;
   background-color: #F2F6FA;
