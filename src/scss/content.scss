@@ -1,0 +1,39 @@
+.content__section {
+  background: url("/src/img/background/content-bg.png") 0-0 no-repeat;
+  min-height: 1352px;
+  background-size: cover;
+}
+
+.content__container {
+  display: flex;
+  float: right;
+}
+
+.content__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right;
+  padding: 440px 0;
+  width: 33.33%;
+}
+
+.content__subtitle {
+  margin: 0 0 24px 0;
+}
+
+.content__title {
+  margin: 0 0 24px 0;
+}
+
+.content__text {
+  font-size: 24px;
+  line-height: 143%;
+  color: #ffffff;
+  margin: 0 0 40px 0;
+}
+
+.content__btn {
+  line-height: 152%;
+  padding: 30px 50px;
+}
