@@ -28,19 +28,37 @@
 .woman__title {
   color: #2E363E;
   letter-spacing: -1px;
+  margin: 24px 0 36px 0;
 
 }
 
+.woman__text {
+  max-width: 438px;
+}
+
 .woman__text .list__item {
-  font-size: 18px;
-  line-height: 27px;
+  display: flex;
+
+  margin: 0 0 1.9rem 0;
+
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: #2E363E;
-  margin: 0 0 0 15px;
+
+  &:last-child {
+    margin: 0 0 50px 0;
+  }
   &:before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    background-color: #2E363E;
+    content: '●';
+
+
+    display: inline-block;
+    margin-right: 0.8rem;
+
+    font-size: 1.6rem;
+    vertical-align: top;
+    line-height: 1;
+    color: #5D6AFB;
   }
 }
 
