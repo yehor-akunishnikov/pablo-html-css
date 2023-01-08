@@ -28,18 +28,29 @@
 .woman__title {
   color: #2E363E;
   letter-spacing: -1px;
+  margin: 24px 0 36px 0;
 
+}
+
+.woman__text {
+  max-width: 438px;
 }
 
 .woman__text .list__item {
   display: flex;
 
+  margin: 0 0 1.9rem 0;
+
   font-size: 1.2rem;
   line-height: 1.8rem;
   color: #2E363E;
 
+  &:last-child {
+    margin: 0 0 50px 0;
+  }
   &:before {
     content: '●';
+
 
     display: inline-block;
     margin-right: 0.8rem;
