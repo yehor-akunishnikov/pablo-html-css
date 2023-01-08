@@ -1,0 +1,54 @@
+.woman__section {
+  background-color: #ffffff;
+  min-height: 830px;
+}
+
+.woman__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.woman__content {
+  width: 50%;
+}
+
+.woman__image {
+  width: 50%;
+}
+
+.woman__subtitle .subtitle {
+
+  letter-spacing: 0.1em;
+  border-radius: unset;
+  background-color: #F2F6FA;
+}
+
+.woman__title {
+  color: #2E363E;
+  letter-spacing: -1px;
+
+}
+
+.woman__text .list__item {
+  font-size: 18px;
+  line-height: 27px;
+  color: #2E363E;
+  margin: 0 0 0 15px;
+  &:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #2E363E;
+  }
+}
+
+.woman__btn  {
+  padding: 30px 50px;
+}
+
+.woman__image img{
+  height: 100%;
+  width: auto;
+}
