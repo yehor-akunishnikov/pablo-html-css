@@ -32,15 +32,22 @@
 }
 
 .woman__text .list__item {
-  font-size: 18px;
-  line-height: 27px;
+  display: flex;
+
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: #2E363E;
-  margin: 0 0 0 15px;
+
   &:before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    background-color: #2E363E;
+    content: '●';
+
+    display: inline-block;
+    margin-right: 0.8rem;
+
+    font-size: 1.6rem;
+    vertical-align: top;
+    line-height: 1;
+    color: #5D6AFB;
   }
 }
 
