@@ -308,7 +308,16 @@ body {
 }
 
 .woman__text .list__item {
-  list-style-type: disc;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2E363E;
+  margin: 0 0 0 15px;
+  &:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #2E363E;
+  }
 }
 
 
