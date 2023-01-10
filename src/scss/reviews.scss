@@ -14,7 +14,7 @@
 .user-card {
   display: flex;
 
-  padding: 50px 80px;
+  padding: 70px 140px;
 
   background-color: #ffffff;
   box-shadow: 2px 8px 16px rgba(194, 198, 208, 0.06);
@@ -24,6 +24,7 @@
 
 .user-card-review {
   width: 60%;
+  margin: 0 54px 0 0;
 }
 
 .user-card-info {
@@ -57,11 +58,66 @@
 }
 
 .user-card-review__text {
-  margin: 30px 0 0 0;
+  margin: 30px 0 24px 0;
 
   color: #2E363E;
   font-size: 15px;
   line-height: 170%;
 }
 
+.user-card-review__link {
+  font-size: 14px;
+  line-height: 21px;
+  color: #4A94FF;
+  border-bottom: 1.5px dashed #4A94FF;
+}
 
+.user-card-info__title {
+  color: #2E363E;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 143%;
+  margin-top: 30px;
+}
+
+.user-card-info__subtitle {
+  font-size: 16px;
+  line-height: 178%;
+  color: #A6AEB6;
+  font-weight: 400;
+}
+
+.reviews-arrows__container {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.reviews__arrow-btn {
+  width: 2em;
+  height: 2em;
+
+  background-color: #FED84C;
+  border-radius: 6.25em;
+
+  font-size: 2rem;
+  margin-right: 24px;
+
+  color: #2E363E;
+  font-weight: bold;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+
+
+
+//.bi-chevron-right {
+//  padding: 5px 8px 5px 8px;
+//  font-weight: 600;
+//
+//  border-radius: 100px;
+//
+//  background-color: #fed84c;
+//}
