@@ -1,36 +1,33 @@
-.content__section {
-  background: url("/src/img/background/content-bg.png") 0-0 no-repeat;
-  min-height: 1352px;
-  background-size: cover;
-}
+@import "variables";
 
-.content__container {
-  display: flex;
-  float: right;
+.content__section {
+  background: $main-background;
+  min-height: 1352px;
+
 }
 
 .content__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  float: right;
   padding: 440px 0;
-  width: 33.33%;
+  max-width: 50%;
+  float: right; // не знаю,як по іншому
 }
 
 .content__subtitle {
-  margin: 0 0 24px 0;
+  margin-bottom: 24px;
 }
 
 .content__title {
-  margin: 0 0 24px 0;
+  margin-bottom: 24px;
 }
 
 .content__text {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 143%;
-  color: #ffffff;
-  margin: 0 0 40px 0;
+  color: $white-color;
+  margin-bottom: 40px;
 }
 
 .content__btn {
