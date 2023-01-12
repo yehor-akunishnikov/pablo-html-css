@@ -1,5 +1,7 @@
+@import 'variables';
+
 .woman__section {
-  background-color: #ffffff;
+  background-color: $white-color;
   min-height: 830px;
 }
 
@@ -10,43 +12,40 @@
   width: 100%;
 }
 
-.woman__content {
+.woman-content {
   width: 50%;
 }
 
-.woman__image {
-  width: 50%;
+
+.woman-content__subtitle {
+  .subtitle {
+    background-color: #F2F6FA; // одноразово
+  }
+
 }
 
-.woman__subtitle .subtitle {
-
-  letter-spacing: 0.1em;
-  border-radius: unset;
-  background-color: #F2F6FA;
-}
-
-.woman__title {
-  color: #2E363E;
-  letter-spacing: -1px;
+.woman-content__title {
+  color: $main-text-color;
+  letter-spacing: -0.0625rem;
   margin: 24px 0 36px 0;
 
 }
 
-.woman__text {
+.woman-content__list {
   max-width: 438px;
 }
 
-.woman__text .list__item {
+.woman-content-list__item {
   display: flex;
 
-  margin: 0 0 1.9rem 0;
+  margin-bottom: 24px;
 
   font-size: 1.2rem;
   line-height: 1.8rem;
-  color: #2E363E;
+  color: $main-text-color;
 
   &:last-child {
-    margin: 0 0 50px 0;
+    margin-bottom: 50px;
   }
   &:before {
     content: '●';
@@ -58,15 +57,19 @@
     font-size: 1.6rem;
     vertical-align: top;
     line-height: 1;
-    color: #5D6AFB;
+    color: #5D6AFB; //одноразово
   }
 }
 
-.woman__btn  {
+.woman-content__btn  {
   padding: 30px 50px;
 }
 
-.woman__image img{
+.woman-image__container {
+  width: 50%;
+}
+
+.woman-image__image {
   height: 100%;
   width: auto;
 }
