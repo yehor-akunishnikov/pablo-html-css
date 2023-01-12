@@ -1,75 +1,82 @@
+@import 'variables';
+
 .price__title {
-  color: #2E363E;
+  color: $main-text-color;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 60px;
+
   text-align: center;
-  margin: 0 0 80px 0;
+
+  margin-bottom: 80px;
 }
 
-.columns__row {
+.price-columns__row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.columns__column {
+.price-columns__column {
   display: flex;
   max-width: 30%;
   min-width: 300px;
   padding: 0 10px;
-  margin: 70px 0 0 0;
+  margin-top: 70px;
 }
 
-.column__item {
+.price-column__item {
   min-width: 300px;
   display: flex;
   flex-direction: column;
 }
 
-.column__image {
-  img {
-    width: 100%;
-    height: auto;
-  }
+.price-column__image {
+
+  width: 100%;
+  height: auto;
+
 }
 
-.column__info {
+.price-column__info {
   margin: 50px 45px;
-  justify-content: start;
-}
 
-.column__title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 143%;
-  margin: 0 0 12px 0;
-}
-
-.column__info {
   display: flex;
   flex-direction: column;
+  justify-content: start;
   flex-grow: 1;
+
   max-width: 100%;
 }
 
-.column__text {
-  font-size: 16px;
+.price-column__title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 143%;
+  margin-bottom: 12px;
+}
+
+
+.price-column__text {
+  display: inline-block;
+
+  font-size: 1rem;
   line-height: 24px;
-  color: #2E363E;
-  margin: 0 0 24px 0;
+  color: $main-text-color;
+
+  margin-bottom: 24px;
   flex: 1 1 auto;
 }
 
-.column__price {
+.price-column__price {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 150%;
-  color: #434B53;
-  margin: 0 0 17px 0;
+  color: #434B53; // одноразово
+
+  margin-bottom: 17px;
 }
 
-.column__btn {
+.price-column__btn {
   padding: 20px 40px;
-
 }
