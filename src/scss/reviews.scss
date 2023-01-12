@@ -1,5 +1,4 @@
-$white-background: #ffffff;
-$main-background: #081130;
+@import "variables";
 
 .reviews__section {
   background: $main-background;
@@ -7,10 +6,14 @@ $main-background: #081130;
   padding: 80px 0;
 }
 
+.reviews__content {
+  margin-bottom: 70px;
+}
+
 .reviews__title {
   margin-bottom: 50px;
 
-  color: #ffffff;
+  color: $white-background;
   text-align: center;
 }
 
@@ -45,7 +48,7 @@ $main-background: #081130;
 
   margin-bottom: 24px;
 
-  color: #2E363E;
+  color: $main-text-color;
   font-weight: 500;
   font-size: 1.875rem;
   line-height: 143%;
@@ -53,7 +56,7 @@ $main-background: #081130;
   &:before {
     content: "❝";
 
-    margin: 0 0 24px 0;
+    margin-bottom: 24px;
 
     font-size: 5rem;
     color: #5D6AFB;
@@ -65,7 +68,7 @@ $main-background: #081130;
 
   margin: 30px 0 24px 0;
 
-  color: #2E363E;
+  color: $main-text-color;
   font-size: 0.9375rem;
   line-height: 170%;
 
@@ -76,34 +79,34 @@ $main-background: #081130;
 
   font-size: 0.875rem;
   line-height: 21px;
-  color: #4A94FF;
+  color: $link-color;
 
-  border-bottom: 1.5px dashed #4A94FF;
+  border-bottom: 1.5px dashed $link-color;
 }
 
 .user-card-info__image {
   width: 380px;
   height: 380px;
-  border-radius: 50%
+  border-radius: 50%;
+
+  margin-bottom: 30px;
 }
 
 .user-card-info__title {
-  color: #2E363E;
+  color: $main-text-color;
   font-size: 1.3125rem;
   font-weight: 500;
   line-height: 143%;
-  margin-top: 30px;
 }
 
 .user-card-info__subtitle {
   font-size: 1rem;
   line-height: 178%;
-  color: #A6AEB6;
+  color: $subtitle-color;
   font-weight: 400;
 }
 
 .reviews-arrows__container {
-  margin-top: 70px;
   text-align: center;
   .reviews__arrow-btn {
     width: 2em;
@@ -115,11 +118,10 @@ $main-background: #081130;
     font-size: 2rem;
     margin-right: 24px;
 
-    color: #2E363E;
-    font-weight: bold;
+    color: $main-text-color;
 
-    &:last-child {
-      margin: 0;
+    &:not(:last-child) {
+      margin-right: 24px;
     }
   }
 }
