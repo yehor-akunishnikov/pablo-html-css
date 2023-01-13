@@ -1,0 +1,55 @@
+
+.orders__content {
+  max-width: 1920px;
+
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.orders-info {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  .orders__title {
+    color: $main-text-color;
+    margin: 160px 0 14px 0;
+  }
+  .orders__subtitle {
+    font-size: 1.5rem;
+    line-height: 143%;
+    color: $main-text-color;
+
+    margin-bottom: 80px;
+  }
+}
+
+
+
+
+
+.orders__gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.orders-gallery__item {
+  text-align: unset;
+
+  .order-gallery__image {
+    width: 100%;
+    height: auto;
+
+    max-width: 30%;
+    min-width: 614px;
+
+    margin: 0 9px 9px 0;
+    &:last-child {
+      margin-bottom: 9px;
+    }
+  }
+}
+
+
