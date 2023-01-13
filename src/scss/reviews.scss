@@ -1,0 +1,128 @@
+
+.reviews__section {
+  background: $main-background;
+
+  padding: 80px 0;
+}
+
+.reviews__content {
+  margin-bottom: 70px;
+}
+
+.reviews__title {
+  margin-bottom: 50px;
+
+  color: $white-background;
+  text-align: center;
+}
+
+.user-card {
+  display: flex;
+
+  padding: 70px 140px;
+
+  background-color: $white-background;
+  box-shadow: 2px 8px 16px rgba(194, 198, 208, 0.06);
+  border: 2px solid #E2EAF2;
+  border-radius: 5px;
+}
+
+.user-card-review {
+  width: 60%;
+  margin-right: 54px;
+}
+
+.user-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 40%;
+}
+
+.user-card-review__title {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 24px;
+
+  color: $main-text-color;
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 143%;
+
+  &:before {
+    content: "❝";
+
+    margin-bottom: 24px;
+
+    font-size: 5rem;
+    color: #5D6AFB;
+  }
+}
+
+.user-card-review__text {
+  display: inline-block;
+
+  margin: 30px 0 24px 0;
+
+  color: $main-text-color;
+  font-size: 0.9375rem;
+  line-height: 170%;
+
+}
+
+.user-card-review__link {
+  display: inline-block;
+
+  font-size: 0.875rem;
+  line-height: 21px;
+  color: $link-color;
+
+  border-bottom: 1.5px dashed $link-color;
+}
+
+.user-card-info__image {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+
+  margin-bottom: 30px;
+}
+
+.user-card-info__title {
+  color: $main-text-color;
+  font-size: 1.3125rem;
+  font-weight: 500;
+  line-height: 143%;
+}
+
+.user-card-info__subtitle {
+  font-size: 1rem;
+  line-height: 178%;
+  color: $subtitle-color;
+  font-weight: 400;
+}
+
+.reviews-arrows__container {
+  text-align: center;
+  .reviews__arrow-btn {
+    width: 2em;
+    height: 2em;
+
+    background-color: #FED84C;
+    border-radius: 6.25em;
+
+    font-size: 2rem;
+    margin-right: 24px;
+
+    color: $main-text-color;
+
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+}
+
+
